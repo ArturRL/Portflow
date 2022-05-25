@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.box-navegação{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+}
+
+h2{
+    margin-left: 6vw;
+    font-size: 5vh;
+}
+
+nav{
+    margin-right: 6vw;
+    width: 28%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+li{
+    font-size: 2vh;
+}
+
+li:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
