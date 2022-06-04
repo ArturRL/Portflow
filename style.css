@@ -128,3 +128,346 @@ footer{
     width: 52%;
     justify-content: space-evenly;
 }
+
+@media(max-width: 1350px){
+    .tela-azul{
+        width: 100%;
+        background-image: url(pasta.img/tela_azul.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        height: 65vh;
+    }
+    
+    h1{
+        font-size: 6.5vh;
+    } 
+}
+
+@media(max-width: 1270px){
+    .box-navegação nav{
+        margin-right: 6vw;
+        width: 32%;
+    }
+    
+    h1{
+        font-size: 6.5vh;
+        margin-left: 3vw;
+    } 
+}
+
+@media(max-width: 1190px){
+    .tela-azul{
+        width: 100%;
+        background-image: url(pasta.img/tela_azul.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        height: 70vh;
+    }
+
+    .texto-tela-azul{
+        padding-top: 30vh;
+        margin-left: 5vw;
+        width: 60%;
+        height: 70vh;
+        text-align: left;
+        color: white;
+    }
+    
+    h1{
+        font-size: 5vh;
+    }
+    
+    p{
+        font-size: 2vh;
+        margin-right: 43vw;
+        margin-top: 7vh;
+    }  
+}
+
+@media(max-width: 1103px){    
+    .texto-tela-azul{
+        padding-top: 30vh;
+        margin-left: 5vw;
+        width: 60%;
+        height: 70vh;
+        text-align: left;
+        color: white;
+    }
+    
+    h1{
+        font-size: 4.5vh;
+    }
+    
+    p{
+        font-size: 2vh;
+        margin-right: 43vw;
+        margin-top: 7vh;
+    }  
+
+    .box-navegação h2{
+        margin-left: 6vw;
+        font-size: 4.8vh;
+    }
+    
+    .box-navegação nav{
+        margin-right: 6vw;
+        width: 35%;
+    }
+
+    .tamanho-fotos{
+        width: 20vw;
+        height: 28vh;
+    }
+
+    footer{
+        width: 100%;
+        height: 8vh;
+        background-color: ghostwhite;
+        align-items: center;
+        margin-top: 4vh;
+    }
+    
+    .box-copyright{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        padding-top: 2vh;
+        margin-left: 6vw;
+    }
+    
+    .box-sociais img{
+        width: 100%;
+        margin-top: 1vh;
+    }
+    
+    .texto-footer{
+        display: flex;
+        width: 52%;
+        justify-content: space-evenly;
+    }
+
+    .texto-footer h3{
+        margin-right: 2vw;
+    }
+
+    .texto-footer ul{
+        font-size: 1.8vh;
+    }
+}
+
+@media(max-width: 960px){
+    .texto-tela-azul{
+        padding-top: 30vh;
+        margin-left: 5vw;
+        width: 60%;
+        height: 70vh;
+        text-align: left;
+        color: white;
+    }
+    
+    h1{
+        font-size: 4vh;
+    }
+    
+    p{
+        font-size: 1.8vh;
+        margin-right: 43vw;
+        margin-top: 7vh;
+    }  
+
+    .box-navegação nav{
+        margin-right: 6vw;
+        width: 45%;
+    }
+}
+
+@media(max-width: 880px){
+    .texto-tela-azul h1{
+        width: 60%;
+    }
+
+    .texto-tela-azul p{
+        width: 60%;
+    }
+
+    .box-fotos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 6vw;
+        justify-content: space-between;
+        padding-top: 6vh;
+    }
+    
+    .tamanho-fotos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1vh;
+        width: 40vw;
+        height: 50vh;
+    }
+}
+
+@media(max-width: 780px){
+    .tela-azul{
+        width: 100%;
+        margin-top: 10vh;
+        background-image: url(pasta.img/tela_azul.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        height: 80vh;
+    }
+
+    footer{
+        width: 100%;
+        height: 12vh;
+        background-color: ghostwhite;
+        align-items: center;
+        margin-top: 4vh;
+    }
+    
+    .box-copyright{
+        display: block;
+        width: 90%;
+        padding-top: 3vh;
+        margin-left: 25vw;
+    }
+    
+    .box-sociais{
+        width: 60%;
+        background: #7FDBD4;
+    }
+
+    .box-sociais img{
+        width: 90%;
+        margin-left: 2.5vw;
+    }
+    
+    .texto-footer{
+        display: block;
+        margin-top: 2vh;
+        width: 52%;
+        justify-content: space-evenly;
+    }
+
+    .texto-footer ul{
+        margin-top: 2vh;
+    }
+}
+
+@media(max-width: 610px){
+    .box-navegação .menu{
+        display: initial;
+        width: 30%;
+        height: 10vh;
+        margin-top: 1vh;
+        margin-left: 5vw;
+        
+    }
+    
+    .menu img{
+        width: 25vw;
+        height: 9vh;
+        object-fit: cover;
+    }
+
+    .box-navegação h2{
+        margin-right: 40vw;
+        font-size: 5vh;
+    }
+    
+    .box-navegação nav{
+        display: none;
+    }
+}
+
+@media(max-width: 480px){
+    .tamanho-fotos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1vh;
+        width: 60vw;
+        height: 40vh;
+    }
+}
+
+@media(max-width: 420px){
+    .box-navegação .menu{
+        display: initial;
+        width: 30%;
+        height: 10vh;
+        margin-top: 1vh;
+        margin-left: 5vw;
+        
+    }
+    
+    .menu img{
+        width: 35vw;
+        height: 9vh;
+        object-fit: cover;
+    }
+
+    .box-navegação h2{
+        margin-right: 40vw;
+        font-size: 5vh;
+    }
+
+    .box-fotos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30vw;
+        justify-content: space-between;
+        padding-top: 6vh;
+    }
+
+    .tamanho-fotos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1vh;
+        width: 80vw;
+        height: 40vh;
+    }
+
+    footer{
+        width: 100%;
+        height: 12vh;
+        background-color: ghostwhite;
+        align-items: center;
+        margin-top: 4vh;
+    }
+    
+    .box-copyright{
+        display: block;
+        width: 90%;
+        padding-top: 3vh;
+        margin-left: 25vw;
+    }
+    
+    .box-sociais{
+        width: 90%;
+        background: #7FDBD4;
+    }
+
+    .box-sociais img{
+        width: 90%;
+        margin-left: 2.5vw;
+    }
+    
+    .texto-footer{
+        display: block;
+        margin-top: 2vh;
+        width: 45%;
+        justify-content: space-evenly;
+    }
+
+    .texto-footer ul{
+        margin-top: 2vh;
+    }
+}
