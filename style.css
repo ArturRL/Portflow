@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
 *{
     margin: 0;
     padding: 0;
@@ -17,17 +19,27 @@ header{
 .box-navegação{
     display: flex;
     justify-content: space-between;
-    margin-top: 2vh;
+}
+
+.box-navegação .menu{
+    display: none;
+}
+
+.menu img{
+    width: 5vw;
+    height: 5vh;
 }
 
 .box-navegação h2{
     margin-left: 6vw;
     font-size: 5vh;
+    margin-top: 2vh;
 }
 
 .box-navegação nav{
     margin-right: 6vw;
     width: 28%;
+    margin-top: 2vh;
 }
 
 .box-navegação ul{
@@ -46,11 +58,17 @@ header{
     font-weight: bolder;
 }
 
+main{
+    width: 100%;
+}
+
 .tela-azul{
     width: 100%;
+    margin-top: 10vh;
     background-image: url(pasta.img/tela_azul.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 70vh;
 }
 
@@ -64,14 +82,12 @@ header{
 
 h1{
     font-size: 7vh;
-   
 }
 
 p{
     font-size: 3vh;
     margin-right: 43vw;
     margin-top: 7vh;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .box-fotos{
